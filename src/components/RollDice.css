@@ -1,0 +1,28 @@
+.section {
+    margin-top: 50px;
+}
+
+.Dies {
+    display: flex;
+    width: 250px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.button {
+    padding: 15px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: #2e90a5;
+    color: white;
+    font-size: 15px;
+    border: none;
+    transition: all 300ms;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
