@@ -48,6 +48,10 @@ class RollDice extends Component {
                         : 'Roll Dice!'
                     }
                 </button>
+                <footer className="footer">
+                    By Andres2D 🚀
+                    <a className="about" href="https://github.com/Andres2D/react-dice-game">About</a>
+                </footer>
             </div>
         )
     }

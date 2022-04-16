@@ -10,7 +10,13 @@ class Die extends Component {
         return(
             <div className={`Die ${this.classMap[number - 1]} ${rolling ? 'DotShake' : ''}`}>
                 { 
-                    new Array(number).fill('*').map((d, index) => <div className={`Dot Dot${index+1}`} key={`${id}${index}`}></div>)
+                    new Array(number).fill('*')
+                        .map((d, index) => 
+                            <div 
+                                className={`Dot Dot${index+1} ${rolling ? 'DotInvisible' : ''}`} 
+                                key={`${id}${index}`}>
+                                
+                            </div>)
                 }
             </div>
         )
